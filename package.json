@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/gashawdemlew/abdominalDisease/issues"
   },
-  "homepage": "https://github.com/gashawdemlew/abdominalDisease#readme"
+  "homepage": "https://github.com/gashawdemlew/abdominalDisease#readme",
+  "publishConfig": {
+    "@gashawdemlew:registry": "https://npm.pkg.github.com"
+  }
 }
