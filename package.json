@@ -1,0 +1,22 @@
+{
+  "name": "@gashawdemlew/abdominaldisease",
+  "version": "1.0.0",
+  "description": "Abdominal disease image based detection and classificatio",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gashawdemlew/abdominalDisease.git"
+  },
+  "keywords": [
+    "abdominaldisease"
+  ],
+  "author": "Gashaw Demlew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gashawdemlew/abdominalDisease/issues"
+  },
+  "homepage": "https://github.com/gashawdemlew/abdominalDisease#readme"
+}
