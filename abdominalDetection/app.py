@@ -20,8 +20,10 @@ from config.setting import ConfigStaticFiles
 
 from gradio_client import Client, handle_file
 
-client = Client(ConfigStaticFiles.huggingFace_rule
+client = Client(ConfigStaticFiles.huggingFace_rule)
+result = client.predict(
+		img=handle_file('https://raw.githubusercontent.com/gradio-app/gradio/main/test/test_files/bus.png'),
+		conf_threshold=0.3,
+		iou_threshold=0.1,
 		api_name="/predict"
 )
-                
-print(result)
