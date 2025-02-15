@@ -16,7 +16,7 @@ if parent_dir not in sys.path:
     sys.path.append(cur_dir)
 sys.path.insert(1, ".")
 
-from config.setting import ConfigStaticFiles
+from config.settings import ConfigStaticFiles
 
 from gradio_client import Client, handle_file
 
@@ -27,3 +27,5 @@ result = client.predict(
 		iou_threshold=0.1,
 		api_name="/predict"
 )
+
+print(result)
