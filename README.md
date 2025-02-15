@@ -32,9 +32,9 @@ The model was developed using the following steps:
 
 3. **Model Training**:
    - The model was trained using popular object detection pre-trained models, including:
-     - **YOLO** (You Only Look Once)
-     - **Faster R-CNN**
-     - **SSD** (Single Shot Multibox Detector)
+     - [**YOLO** (You Only Look Once)] (https://docs.ultralytics.com/)
+     - [**Faster R-CNN**](https://pytorch.org/vision/master/models/faster_rcnn.html)
+     - [**SSD** (Single Shot Multibox Detector)](https://pytorch.org/hub/nvidia_deeplearningexamples_ssd/)
 
 4. **Testing and Evaluation**:
    - The model achieved an **F-score of 82%**, demonstrating good performance in detecting abdominal disease stages.
@@ -141,5 +141,5 @@ This project is licensed under the MIT License.
 ## Contact
 For questions or support, feel free to reach out:
 
-    - Email: your-email@example.com
-    - LinkedIn: Your LinkedIn Profile
+    - Email: gashudemman@gmail.com
+    - LinkedIn: https://www.linkedin.com/in/gashaw-demlew-b35865150/
