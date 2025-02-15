@@ -98,13 +98,13 @@ If you prefer to deploy the model yourself, you can use the following platforms:
 ---
 
 ## Features
-### - Abdominal Disease Detection:
+- Abdominal Disease Detection:
         - Detects pain stages including normal, acute, abscess, appendicolith, and perforated.
-### - Image Processing:
+- Image Processing:
         - Preprocesses and augments MRI images for improved accuracy.
-### - Object Detection:
+- Object Detection:
         - Leverages pre-trained models like YOLO, Faster R-CNN, and SSD for high performance.
-### - Cloud Integration:
+- Cloud Integration:
         - Model is deployable on cloud platforms for easy accessibility.
     
 ---
